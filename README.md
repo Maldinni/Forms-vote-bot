@@ -93,6 +93,8 @@ Forms-vote-bot/
 
 É necessário criar um arquivo `keys.env` na raiz do projeto.
 
+Também é necessário entrar em "runner.py" e adicionar a URL do seu formulário.
+
 ### Exemplo de `keys.env`
 
 ```env
