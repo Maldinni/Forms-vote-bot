@@ -8,7 +8,7 @@ from config.settings import IMAGE_DIR
 
 
 def main():
-    form_url = "https://docs.google.com/forms/d/e/1FAIpQLSdXRtcx9G24a6_ccvbjwQyP3bcWHiOWZs4etGuSEyY_UF28Lg/viewform"
+    form_url = "<SEU FORMS AQUI>"
 
     url = validate_url(form_url)
 
