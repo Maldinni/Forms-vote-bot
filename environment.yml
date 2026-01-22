@@ -1,0 +1,11 @@
+name: Forms-vote-bot
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - pyautogui>=0.9.54
+      - pyperclip>=1.8.2
+      - opencv-python>=4.9.0
+      

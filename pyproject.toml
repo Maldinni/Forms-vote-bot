@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Forms-vote-bot"
+version = "0.1.0"
+description = "Automação para votação do google forms"
+authors = [
+  { name="Enzo Maldinni" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+  "pyautogui>=0.9.54",
+  "pyperclip>=1.8.2",
+  "opencv-python>=4.9.0"
+]
+
+[project.scripts]
+forms-automation = "forms_automation.runner:main"
