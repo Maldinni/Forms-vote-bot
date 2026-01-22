@@ -8,7 +8,8 @@ Este projeto tem caráter educacional e experimental. É utilizado apenas para f
 
 ## Visão geral do projeto
 
-O pipeline consiste em abrir um Google Forms em uma aba do navegador, aguardar o carregamento da página, localizar a opção desejada com base em uma imagem previamente capturada, clicar na caixinha correspondente, rolar a página até o final e acionar o botão de envio..
+O pipeline consiste em abrir um Google Forms em uma aba do navegador, aguardar o carregamento da página, localizar a opção desejada com base em uma imagem previamente capturada, clicar na caixinha correspondente, rolar a página até o final e acionar o botão de envio.
+
 ---
 
 ## Requisitos de ambiente
@@ -66,14 +67,20 @@ Forms-vote-bot/
 ├── README.md
 ├── keys.env
 ├── .gitignore
+├── pyproject.toml
+├── requirements.txt
+├── environment.yaml
 └── src/
     └── Forms-vote-bot/
+        │   __init__.py
         ├── runner.py
         ├── utils/
+        │   ├── __init__.py
         │   ├── automator.py
         │   ├── position.py
         │   └── validate.py
         ├── config/
+        │   ├── __init__.py
         │   └── settings.py
         └── images/
             ├── checkbox.png
